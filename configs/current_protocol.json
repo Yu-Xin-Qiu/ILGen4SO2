@@ -1,0 +1,41 @@
+{
+  "seeds": [
+    137,
+    251,
+    367
+  ],
+  "rounds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "attempts_per_seed_round": 10000,
+  "global_count": 5000,
+  "local_count": 5000,
+  "local_sigma": 0.25,
+  "temperature": 1.0,
+  "top_k": 32,
+  "reference": "CCCCn1cc[n+](C)c1.COS(=O)(=O)[O-]",
+  "Tm_K_lt": 298.15,
+  "eta_mPas_lt": 200,
+  "log10_EC50_gt": 2,
+  "physical_folds": 10,
+  "gas_folds": 5,
+  "absorption_K": 298.15,
+  "desorption_K": 313.15,
+  "pressure_bar": 1,
+  "feedback": "hard properties + physical gas + absent from experimental library + R > reference",
+  "final_screen": "hard properties + physical gas + library novelty + each AC/DE/S > reference + SA_max < reference",
+  "selected_generation_round": 4,
+  "selected_checkpoint": "round_03/model.pt",
+  "epochs_per_update": 2,
+  "learning_rate": 3e-05,
+  "scoring": "point prediction; no uncertainty gate"
+}

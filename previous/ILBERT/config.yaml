@@ -1,0 +1,8 @@
+  
+transformer:
+  ntoken: 2000
+  d_model: 512
+  nhead: 4
+  d_hid: 1024
+  nlayers: 6
+  dropout: 0

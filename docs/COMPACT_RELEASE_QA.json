@@ -1,0 +1,22 @@
+{
+  "original_files": 197,
+  "scientific_result_check": {
+    "attempts": 30000,
+    "feasible": 10285,
+    "strict": 15,
+    "pareto": 11,
+    "top4": [
+      "IL0006",
+      "IL0014",
+      "IL0003",
+      "IL0008"
+    ],
+    "files_verified": 0
+  },
+  "csv_tables_roundtrip_verified": 75,
+  "quantum_input_files_roundtrip_verified": 42,
+  "python_sources_compiled": 34,
+  "credential_findings": [],
+  "plot_script_executed": true,
+  "export_script_executed": true
+}
